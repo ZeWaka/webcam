@@ -21,18 +21,19 @@ body {
   position: relative;
   top: 50%;
   left: 50%;
-  text-align: center;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #FEFEFE;
 }
 
-a:hover {
-    text-decoration: none;
+img {
+    border-radius: 999em;
+	border: 10px solid #CCC;
+	background: #CCC;
 }
 
 @media (max-width: 815px) {
