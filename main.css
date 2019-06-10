@@ -7,8 +7,6 @@ body,html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background: #946A59;
     font-family: "Bitter","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.4rem;
@@ -17,28 +15,21 @@ body {
 }
 
 .center {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 a {
-    text-decoration: underline;
+	text-decoration: none;
     color: #FEFEFE;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
 img {
+	margin-top: 2em;
 	border-radius: 2em;
 	border: 10px solid #666;
 	background: #666;
 }
+
 
 @media (max-width: 815px) {
     body {
