@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
-	overflow: scroll; 
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 body,html {
