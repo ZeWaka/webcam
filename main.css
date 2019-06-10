@@ -20,8 +20,12 @@ body {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #FEFEFE;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 img {
