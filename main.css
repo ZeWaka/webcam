@@ -10,7 +10,9 @@ body {
     margin: 0;
     padding: 0;
     background: #946A59;
-    font-family: Bitter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "Bitter","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.4rem;
+    text-rendering: auto;
     color: #FEFEFE;
 }
 
