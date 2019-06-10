@@ -1,5 +1,7 @@
 * {
-    box-sizing: border-box
+	box-sizing: border-box;
+	overflow: scroll; 
+	overflow-x: hidden;
 }
 
 body,html {
@@ -7,11 +9,11 @@ body,html {
 }
 
 body {
-    background: #946A59;
-    font-family: "Bitter","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.4rem;
-    text-rendering: auto;
-    color: #FEFEFE;
+	background: #946A59;
+	font-family: "Bitter","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.4rem;
+	text-rendering: auto;
+	color: #FEFEFE;
 }
 
 .center {
@@ -20,7 +22,7 @@ body {
 
 a {
 	text-decoration: none;
-    color: #FEFEFE;
+	color: #FEFEFE;
 }
 
 img {
@@ -33,6 +35,6 @@ img {
 
 @media (max-width: 815px) {
     body {
-        padding-top:100px
+		padding-top:100px
     }
 }
