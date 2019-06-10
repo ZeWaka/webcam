@@ -10,13 +10,13 @@ body {
     margin: 0;
     padding: 0;
     background: #946A59;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Bitter,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #FEFEFE;
 }
 
 .center {
   margin: 0;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -24,11 +24,8 @@ body {
 }
 
 a {
-    text-decoration: underline
-}
-
-a:hover {
-    text-decoration: none
+    text-decoration: none;
+    color: #FEFEFE;
 }
 
 @media (max-width: 815px) {
