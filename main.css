@@ -31,9 +31,9 @@ a {
 }
 
 img {
-    border-radius: 999em;
-	border: 10px solid #CCC;
-	background: #CCC;
+    border-radius: 2em;
+	border: 10px solid #666;
+	background: #666;
 }
 
 @media (max-width: 815px) {
