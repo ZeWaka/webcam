@@ -31,6 +31,7 @@ a:hover {
 
 img {
 	margin-top: 2em;
+	
 	border-radius: 2em;
 	border: 10px solid #666;
 	background: #666;
@@ -40,5 +41,8 @@ img {
 @media (max-width: 815px) {
     body {
 		padding-top:100px
+    }
+    img{
+	    	max-height: 15em;
     }
 }
