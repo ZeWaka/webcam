@@ -1,15 +1,6 @@
-* {
-	box-sizing: border-box;
-	overflow: hidden;
-}
-
-body,html {
-    height: 100%
-}
-
 body {
 	background: #946A59;
-	font-family: "Bitter","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Bitter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.4rem;
 	text-rendering: auto;
 	color: #FEFEFE;
@@ -40,18 +31,45 @@ img {
 	height: auto;
 	width: auto;
 	max-width: 30%;
-	
+
 	border-radius: 2em;
 	border: 10px solid #666;
 	background: #666;
 }
 
-
 @media (max-width: 815px) {
-    body {
-		padding-top:100px
-    }
-    img{
-	    	max-height: 15em;
-    }
+	body {
+		padding-top: 100px
+	}
+
+	img {
+		max-height: 15em;
+	}
+}
+
+h1 {
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+h2 {
+	margin: 0em;
+}
+
+.questions {
+	background: #744A39;
+	padding: 1em;
+	line-height: normal;
+	font-size: 1.1rem;
+	max-width: 50%;
+}
+
+.centered-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+pre {
+	display: inline;
 }
